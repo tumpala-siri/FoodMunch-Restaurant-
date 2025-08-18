@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body{
+    margin:0;
+    padding:0;
+    height: 100vh;
+}
+.food-munch-logo{
+    height:90px;
+    width:80px;
+
+}
+.navbar{
+    background-color: rgb(41, 41, 41);
+}
+#navItem1,#navItem2,#navItem3,#navItem4{
+    color:white;
+    font-family: "Lora";
+    text-transform: capitalize;
+}
+#navItem1:hover, #navItem2:hover,#navItem3:hover,#navItem4:hover{
+
+    box-shadow: 2px 2px 10px 2px bisque;
+    width:auto;
+    margin:2px;
+    padding:6px;
+    border-radius: 12px;
+    
+}
+.home{
+    background-image: url("https://as1.ftcdn.net/v2/jpg/03/35/51/06/1000_F_335510693_HY7mLg3ARdLccKoXk3m66NLDpJRJh51p.jpg");
+    background-size: cover;
+    height:100vh;
+    align-items: center;
+}
+.home-sub-sec{
+    align-items: center;
+    align-content: center;
+    color:rgb(198, 113, 8)
+}
+.home-main-head{
+    font-family:"playfair Display sc";
+    font-style: italic;
+    text-transform: capitalize;
+    color:rgb(250, 184, 0);
+}
+.home-heading{
+    font-family:"sans serif";
+    font-weight: 300;
+
+}
+.home-para{
+    font-weight: 600;
+    color:rgba(242, 197, 142, 0.989);
+    font-family: "Cormorant Garamond";
+}
+.home-btn{
+    background:transparent;
+    padding:8px;
+    color:rgba(247, 183, 5, 0.989);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    border-color: rgb(223, 116, 16);
+}
+#btn-link{
+    color:rgba(247, 183, 5, 0.989);
+}
+#btn-link:hover{
+    text-decoration: none;
+}
+.home-btn:hover{
+    box-shadow: 3px 3px 10px 3px rgb(239, 191, 133);
+    background-color: rgba(183, 148, 107, 0.311);
+}
+.wcu-section{
+    background-color: #6e7b8627;
+}
+.wcu-main-head{
+    font-size:35px;
+    font-weight: 600;
+     font-family: "playfair Display";
+    font-style: italic;
+    color:#183b56;
+}
+.wcu-main-para{
+    font-family: "Roboto";
+    color:#5a7184;
+    font-size: 18px;
+}
+.wcu-food-card{
+    background-color: #f9fbfe;
+    align-items: center;
+    height: 65vh;
+    padding: 5px;
+    border-radius: 15px;
+}
+.wcu-head{
+    color:#183b56;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+.wcu-para{
+    color: #5a7184;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.exp-card{
+    height:78vh;
+}
+.exp-img{
+    height: 200px;
+}
+.exp-head{
+    color:#183b56;
+    font-weight:700;
+    font-family: "playfair Display";
+    font-style: italic;
+}
+.exp-card{
+    background-color: #535d6527 ;
+    border-radius: 10px;
+}
+.exp-card:hover{
+    background-color: #83919d62 ;
+}
+.exp-card-head{
+    color:#183b56;
+    font-weight:400;
+    font-family: sans-serif;
+    margin-top:5px;
+
+}
+.exp-para{
+    color: #5a7184;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.exp-link{
+    color:#45696b;
+    font-weight: 600;
+}
+.healthy-img{
+    border-radius: 10px;
+}
+.healthy-head{
+    color:#183b56;
+    font-weight:700;
+    font-family: "playfair Display";
+}
+.healthy-para{
+    color: #5a7184;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "sanserif";
+}
+.healthySection{
+    background-color: #f9fbfe;
+}
+.payment-head , .thankyou-head , .followus-head{
+    color:#183b56;
+    text-transform: capitalize;
+    font-family: "playfair Display";
+    font-weight:600;
+}
+.payment-para{
+    color:#45696b;
+    font-family: 'sanserif';
+    font-size:18px;
+    font-weight: 400;
+}
+.payment-btn{
+    background-color: rgb(223, 116, 16);
+    padding:10px;
+    border-radius:5px;
+    color:#0a0a09;
+    margin-bottom: 10px;
+    border:none
+}
+.payment-btn:hover{
+    box-shadow: 2px 2px 1px 1px #0b0b0bab;
+}
+.payment-main-img2{
+    margin-top: 30px;
+    height:70vh;
+}
+.thankyouSection{
+    background-image: radial-gradient(#fff8db, #fae38c);
+}
+.thankyou-main-img2{
+    border-radius: 10px;
+}
+.thankyou-main-img1{
+    border-radius: 10px;
+}
+.thankyou-para{
+    color:#1c4666;
+    font-weight: 500;
+    font-family: "sans-serif";
+    font-size: 20px;
+}
+.followus-icon-card{
+    background-color: #fae28c9d;
+    padding-top:20px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-bottom:20px;
+    border-radius: 50px;
+}
+.icon{
+    font-size:35px;
+}
+.icon:hover{
+    font-size: 40px;
+}
+.footer{
+    background-color:rgb(41, 41, 41);
+    
+}
+.foot-sec{
+   font-style: italic;
+   font-family: "playfair";
+}
+.foot-img{
+    height:20vh;
+    width:20vh;
+}
