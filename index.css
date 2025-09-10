@@ -108,7 +108,7 @@ body{
     
 }
 .exp-card{
-    height:78vh;
+    height:80vh;
 }
 .exp-img{
     height: 200px;
@@ -226,4 +226,5 @@ body{
 .foot-img{
     height:20vh;
     width:20vh;
+
 }
